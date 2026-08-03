@@ -1,28 +1,22 @@
 # 🏠 House Price Prediction Web Application
 
-A full-stack Machine Learning web application that predicts California house prices using a trained regression model.
+A full-stack Machine Learning web application that predicts California house prices using a trained regression model. Built using **React**, **FastAPI**, and **Scikit-learn**.
 
 ---
 
-## 📸 Preview
+# 🚀 Features
 
-<img width="100%" src="frontend/src/assets/hero.png">
-
----
-
-## 🚀 Features
-
-- Modern React frontend
-- FastAPI backend
-- Machine Learning price prediction
-- Responsive dark UI
-- REST API integration
-- Real-time prediction results
-- Clean and professional interface
+- Modern dark-themed user interface
+- Real-time house price prediction
+- FastAPI REST API backend
+- React + Vite frontend
+- Machine Learning regression model
+- Responsive design
+- Clean and intuitive UI
 
 ---
 
-## 🛠 Tech Stack
+# 🛠 Tech Stack
 
 ### Frontend
 - React
@@ -40,7 +34,7 @@ A full-stack Machine Learning web application that predicts California house pri
 
 ---
 
-## 📁 Project Structure
+# 📂 Project Structure
 
 ```
 house-price-prediction/
@@ -48,27 +42,33 @@ house-price-prediction/
 ├── backend/
 │   ├── main.py
 │   ├── train.py
-│   └── explore.py
+│   ├── explore.py
+│   └── test_houses.csv
 │
 ├── frontend/
 │   ├── src/
 │   ├── public/
-│   └── package.json
+│   ├── package.json
+│   └── vite.config.js
 │
+├── .gitignore
 └── README.md
 ```
 
 ---
 
-## ⚙ Installation
+# ⚙ Installation
 
-### Clone Repository
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/aJ23101/house-price-prediction.git
+cd house-price-prediction
 ```
 
-### Backend
+---
+
+## 2. Backend Setup
 
 ```bash
 cd backend
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-Backend runs on
+Backend will run at:
 
 ```
 http://127.0.0.1:8000
@@ -90,7 +90,7 @@ http://127.0.0.1:8000
 
 ---
 
-### Frontend
+## 3. Frontend Setup
 
 ```bash
 cd frontend
@@ -100,7 +100,7 @@ npm install
 npm run dev
 ```
 
-Frontend runs on
+Frontend will run at:
 
 ```
 http://localhost:5173
@@ -108,15 +108,15 @@ http://localhost:5173
 
 ---
 
-## API Endpoint
+# 🔌 API Endpoint
 
-### Predict Price
+### Predict House Price
 
 ```
 POST /predict
 ```
 
-Example JSON
+Example Request
 
 ```json
 {
@@ -133,20 +133,20 @@ Example JSON
 
 ---
 
-## Future Improvements
+# 📈 Future Improvements
 
-- Docker Deployment
+- Deploy model on cloud
+- Docker support
 - Authentication
-- Prediction History
-- Interactive Charts
-- Model Retraining
-- Cloud Deployment
+- Prediction history
+- Interactive analytics dashboard
+- Model retraining pipeline
 
 ---
 
-## 👩‍💻 Author
+# 👩‍💻 Author
 
 **Aditi Joshi**
 
-GitHub:
-https://github.com/aJ23101
+GitHub: https://github.com/aJ23101
+
